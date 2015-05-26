@@ -1,0 +1,41 @@
+package ${packageName};
+
+import java.util.logging.*;
+
+public class ${className}${wrapperClassSuffix} extends ${className} {
+
+	private static final Logger logger = Logger.getLogger(${className}${wrapperClassSuffix}.class.getName());
+
+#foreach ($method in $methods)
+	#set ($returnType = ${method.returnType})
+	#set ($params = ${method.parameters})
+	#set ($paramCount = $params.size())
+	#set ($count = 0)
+	public $returnType ${method.simpleName}(
+		#foreach ($param in $params)
+			${param.asType().toString()} param_$count
+			#if ($count < ($paramCount - 1))
+				,
+			#end
+			#set ($count = $count + 1)
+		#end
+		) {
+		logger.log(Level.INFO, "$customMessage");
+		#if ($returnType != "void")
+			return super.${method.simpleName}(
+		#else
+        	super.${method.simpleName}(
+		#end
+		#set ($count = 0)
+		#foreach ($param in $params)
+			param_$count
+			#if ($count < ($paramCount - 1))
+            	,
+			#end
+			#set ($count = $count + 1)
+		#end
+		);
+	}
+
+#end
+}
