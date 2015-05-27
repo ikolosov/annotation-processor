@@ -1,9 +1,10 @@
 ### Compile Time Annotation Processing
-This Java application demonstrates how to create custom annotations and how to process them at a compile time. 
+This application demonstrates how to create custom annotations and how to process them at compile time.
+This is live example of compile time code generation with its further invocation at runtime.
 
 ### Technology Stack
 * JDK 8
-* Apache Maven v.3+
+* Apache Maven v.3.2
 * Apache Velocity v.1.7
 * JUnit v.4.12
 
