@@ -8,6 +8,10 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+	<url>
+        http://ikolosov.com/2015/05/26/annotation-processing/
+    </url>
+	
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
