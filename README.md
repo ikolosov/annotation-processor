@@ -1,4 +1,4 @@
-### Compile Time Annotation Processing
+### Compile Time Code Generator
 This application demonstrates how to create custom annotations and how to process them at compile time.
 This is live example of compile time code generation with its further invocation at runtime.
 
