@@ -2,6 +2,9 @@ package com.ikolosov.apt.targetapp;
 
 import org.junit.Test;
 
+/**
+ * @author ikolosov
+ */
 public class AptPocTest {
 
 	@Test

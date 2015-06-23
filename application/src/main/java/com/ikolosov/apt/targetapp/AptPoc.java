@@ -2,6 +2,9 @@ package com.ikolosov.apt.targetapp;
 
 import com.ikolosov.apt.annotation.CustomAnnotation;
 
+/**
+ * @author ikolosov
+ */
 @CustomAnnotation
 public class AptPoc {
 

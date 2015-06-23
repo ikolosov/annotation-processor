@@ -16,6 +16,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * @author ikolosov
+ */
 @SupportedAnnotationTypes("com.ikolosov.apt.annotation.CustomAnnotation")
 @SupportedSourceVersion(SourceVersion.RELEASE_8)
 public class CustomAnnotationProcessor extends AbstractProcessor {

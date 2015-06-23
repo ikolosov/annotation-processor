@@ -2,6 +2,9 @@ package ${packageName};
 
 import java.util.logging.*;
 
+/**
+* @author ikolosov
+*/
 public class ${className}${wrapperClassSuffix} extends ${className} {
 
 	private static final Logger logger = Logger.getLogger(${className}${wrapperClassSuffix}.class.getName());
