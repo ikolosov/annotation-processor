@@ -18,4 +18,4 @@ Examine build log, make sure build was successful:
 `[INFO] BUILD SUCCESS`
 
 ### Launch Instructions
-Once the app is assembled, take a look at AptPocTest class - this is the entry point.
+Once the app is assembled, take a look at [AptPocTest.java|https://github.com/ikolosov/annotation-processor/blob/master/application/src/test/java/com/ikolosov/apt/targetapp/AptPocTest.java] class - this is the entry point.
